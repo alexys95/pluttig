@@ -1,13 +1,28 @@
 {
-	"name": "Ghost-Deploy",
-	"description": "",
-	"main": "server.js",
-	"dependencies": {
-		"express": "latest",
-		"thinky": "latest",
-		"express-handlebars": "latest",
-		"randomstring": "latest",
-		"body-parser": "latest",
-		"valid-url": "latest"
-	}
+  "name": "Pluttig-Fork",
+  "description": "URL Shortening page for Node.js, Using Express etc etc(See package.json file)",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest",
+    "thinky": "latest",
+    "express-handlebars": "latest",
+    "randomstring": "latest",
+    "body-parser": "latest",
+    "valid-url": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.1",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexys95/pluttig.git"
+  },
+  "author": "Jonathan Sehlin, Alexander Sundén",
+  "license": "CC BY-NC-SA",
+  "bugs": {
+    "url": "https://github.com/alexys95/pluttig/issues"
+  },
+  "homepage": "https://github.com/alexys95/pluttig"
 }
